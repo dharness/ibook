@@ -1,0 +1,36 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html ng-app="myapp" >
+  <head>
+
+    <title> dHarness MEAN Seed </title>
+
+    <!-- components -->
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-route/angular-route.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	<link href="bower_components/components-font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="bower_components/bootstrap-social/bootstrap-social.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+
+    <!-- Utils -->
+    <script type="text/javascript" src="util/FBCreator.js"></script>
+    <script type="text/javascript" src="util/SearchEngine.js"></script>
+
+    <!-- MAIN APP FILE -->
+    <script type="text/javascript" src="app.js"></script>
+
+    <!-- CONTROLLERS -->
+    <script type="text/javascript" src="controllers/landingController.js"></script>
+    <div id="fb-root"></div>
+	<body style="background-color: #333333;">
+
+	    <!-- this is where content will be injected -->
+	    <div class="page {{ pageClass }}" ng-view >
+
+	    </div>
+	</body>
+
+
+</html>
