@@ -1,20 +1,18 @@
-# The Dylaila Mean Seed
+# iBook - Facebook Crawler
 
-A simple MEAN seed I use with a very organized structure I like. This project would not have been possible without Naila Nur, who contributed gratly to its success and its name.
+A simple web app for programmatically creating facebook applications using PhantomJS to crawl.
 
-###Naila Nur
+### The Need
 
-https://github.com/NoodleNut
+Facebook allows developers to query their API with highly restricted access rates. While this works for small apps, it fails when the application scales. To subvert this rule, we must programatically create a facebook app for each user and funnel data through it.
 
 ## How to use this Project
 
-You can add all of your routes to route.js in the App directory. This is where server-side routing is done.
-The main server file is the top-level directory server.js - it includes a setup for a mongo database.
+Simply install the dependencies and run the server. Progress can be watched in public/images/steps
 
-It then becomes as simple as building a regular Angular project from the public directory.
 
 ## Future Versions
 
-If you have suggestions to improve this project or would like to make some contribution I encourage you to fork the repo and I will view any and all merge requests.
+The capthyas got me on this one and more important projects took over. I still think it is worth looking into.
 
-In particular, the documentation on this project could be greatly improved. But it is exam season right now, so I'll have to do it later.
+If you have suggestions to improve this project or would like to make some contribution I encourage you to fork the repo and I will view any and all merge requests.
